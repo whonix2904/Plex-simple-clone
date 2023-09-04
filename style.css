@@ -4,9 +4,15 @@
     padding: 0;
 }
 
+
+body {
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+
 .floatbar{
-    height: 60px;
-    width: 1366px;
+    height: 10vh;
+    width: 100vw;
     align-items: end;
     justify-content: center;
     display: flex;
@@ -17,7 +23,7 @@
     justify-content: space-between  ;
     align-items: center;
     height: 48px;
-    width: 84rem;
+    width: 90vw;
     background-color: #1F324A;
     border-radius: 5px;
 }
